@@ -1,0 +1,205 @@
+* {
+    transition: 0.3s;
+    font-family: Rimouski;
+}
+
+body{
+    background-color: #293251;
+    /* color & decoration */
+}
+
+.container{
+    width: 300px;    
+    height: 300px;
+    background-color: #FFF;
+    transition: 0.3s;
+    
+    display: block;
+    margin: 10% auto;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.container:hover{
+    width: 500px;
+    height: 500px;
+    margin: 5% auto;
+}
+
+
+
+
+.title{
+    width: auto;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.container:hover .title p{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: auto;
+    height: auto;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    transition: 0.3s;
+    width: auto;
+    height: auto;
+}
+
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: auto;
+    height:100px;
+}
+
+
+.temperature-value p{
+    transition: 0.1s;
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container:hover .temperature-value{
+    width: auto;
+    padding: 30px;
+    height: 220px;
+}
+
+
+
+.container:hover .temperature-value p{
+    width: auto;
+    font-size: 8em;
+    padding: 30px;
+    height: 120px;
+}
+
+.temperature-value p:hover{
+
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+.container:hover .temperature-description{
+    font-size: 1.8em;
+
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.container:hover .location{
+    width: auto;
+    font-size: 2em;
+
+}
+
+#theSidenav a {
+    position: absolute;
+    left: -120px;
+    transition: 0.3s;
+    font-weight: bold;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: white;
+    border-radius: 0 5px 5px 0;
+    filter: drop-shadow(3px 3px #000066);
+    padding-left: 25px;
+}
+
+
+
+
+#theSidenav a:hover {
+    left: 0;
+}
+
+#tasks {
+    top: 100px;
+    background-color: #00ff99;
+}
+
+#news {
+    top: 180px;
+    background-color: #00b386;
+}
+
+#weather {
+    top: 260px;
+    background-color: #007399;
+}
+
+#calendar {
+    top: 340px;
+    background-color: #004080;
+}
+
+#settings {
+    bottom: 80px;
+    background-color: #9b9b9b;
+    filter: drop-shadow(10px 10px #000066);
+    
+}

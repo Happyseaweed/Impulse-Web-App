@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Impulse </title>
+        <script src="index.js"></script>
+        
+        <link href="index.css" type="text/css" rel="stylesheet">
+    </head>
+    <header>
+            <img src='./mountainLogo(1).png'>
+            <h1 class="title" >Impulse</h1>
+            <div id="clock"></div>
+            <nav>
+                <ul>
+                    <li><a href="./signup.html">Sign Up</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <body onload = "realtimeClock(), CurrentDate()" >
+        <div class = "bg-image"></div>
+        
+            <div id="theSidenav" class="sidenav">
+                <a href="#" id="tasks">Tasks</a>
+                <a href="#" id="news">News</a>
+                <a href="./weather.html" id="weather">Weather</a>
+                <a href="#" id="calendar">Calendar</a>
+                <a href="#" id="settings">Settings</a>
+            </div>      
+            <div id="mainScreen" class="screen"> <!-- Main display box for information --> 
+                <h2>Next Event: "event name"</h2>
+                <div id="date"></div>
+                <div class="report">
+                    <p> - </p>
+                </div>
+                <div id="news"></div>
+            </div>
+            <script src="simpleweather.js"></script>
+    </body>
+
+</html>
